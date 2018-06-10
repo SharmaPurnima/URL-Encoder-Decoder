@@ -1,0 +1,31 @@
+body {
+  background-color: lightgray;
+}
+
+h1 {
+  color: coral;
+}
+
+textarea {
+  resize: none;
+}
+
+.input {
+  width: 200px;
+}
+
+.label {
+  font-family: arial, sans-serif;
+  color: maroon;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.button {
+  margin: 1em 0;
+  background-color: white;
+}
+
+#firstURL, #secondURL {
+  margin: 1em 0; 
+}
