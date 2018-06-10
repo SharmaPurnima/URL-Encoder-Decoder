@@ -26,23 +26,25 @@
 <body>
 
   <!-- Form for first URL generator -->
-<!-- Sample Meeting ID 543-003-786 --->
+
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-offset-3 col-lg-4 col-md-2">
       <div class="well">
-        <span><h1>URL Encoder</h1></span>
+        <span><h1>URL Encoder-Decoder</h1></span>
         <form action="">
           <div class="form-group">
-            <label for="Encoder">URL</label>
-            <input type="text" class="form-control" name="urlvalue" id="urlvalue" value="" placeholder="https://sharmapurnima.com" />
+            <label for="EncoderDecoder">URL</label>
+			  <textarea class="form-control clip" id="urlvalue" rows="10"  placeholder="https://sharmapurnima.com"></textarea>
+            
           </div>
           <div class="form-group">
             <input class="btn btn-success" type="button" value="Encode URL" id="firstButton">
+			<input class="btn btn-success" type="button" value="Decode URL" id="secondButton">
           </div>
           <div class="form-group">
-            <label for="Constant Contact URL">The Encoded URL is :</label>
-            <textarea class="form-control clip" id="EncodedURL" rows="10"></textarea>
+            <label for="Constant Contact URL">Output URL</label>
+            <textarea class="form-control clip" id="OutputURL" rows="10"></textarea>
             
         </form>
         </div>
